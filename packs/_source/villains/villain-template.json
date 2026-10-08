@@ -1,0 +1,39 @@
+{
+  "_id": "mefVillainTempl1",
+  "_key": "!actors!mefVillainTempl1",
+  "name": "Villain Template",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "rank": {
+        "value": 3
+      }
+    },
+    "health": {
+      "value": 90,
+      "max": 90
+    },
+    "focus": {
+      "value": 90,
+      "max": 90
+    },
+    "codename": "Villain Template"
+  },
+  "prototypeToken": {
+    "name": "Villain Template",
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

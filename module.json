@@ -1,0 +1,75 @@
+{
+  "id": "marvel-character-library",
+  "type": "module",
+  "title": "Marvel Character Library",
+  "description": "Expandable Actor compendiums for Marvel Multiverse heroes, villains, minions, and NPCs.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.365"
+  },
+  "authors": [
+    {
+      "name": "Marvel Encounter Framework Project"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "marvel-multiverse",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "3.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "heroes",
+      "label": "Marvel Character Library: Heroes",
+      "system": "marvel-multiverse",
+      "path": "packs/heroes",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "villains",
+      "label": "Marvel Character Library: Villains",
+      "system": "marvel-multiverse",
+      "path": "packs/villains",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "minions",
+      "label": "Marvel Character Library: Minions & NPCs",
+      "system": "marvel-multiverse",
+      "path": "packs/minions",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Marvel Character Library",
+      "sorting": "a",
+      "color": "#b51f2e",
+      "packs": [
+        "heroes",
+        "villains",
+        "minions"
+      ]
+    }
+  ]
+}

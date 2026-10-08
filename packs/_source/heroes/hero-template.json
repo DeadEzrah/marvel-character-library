@@ -1,0 +1,39 @@
+{
+  "_id": "mefHeroTemplate1",
+  "_key": "!actors!mefHeroTemplate1",
+  "name": "Hero Template",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "rank": {
+        "value": 1
+      }
+    },
+    "health": {
+      "value": 30,
+      "max": 30
+    },
+    "focus": {
+      "value": 30,
+      "max": 30
+    },
+    "codename": "Hero Template"
+  },
+  "prototypeToken": {
+    "name": "Hero Template",
+    "actorLink": true,
+    "disposition": 1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 2
+  }
+}

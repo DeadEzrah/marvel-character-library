@@ -1,0 +1,39 @@
+{
+  "_id": "mefAlienVangrd01",
+  "_key": "!actors!mefAlienVangrd01",
+  "name": "Alien Vanguard",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": {
+      "rank": {
+        "value": 1
+      }
+    },
+    "health": {
+      "value": 30,
+      "max": 30
+    },
+    "focus": {
+      "value": 30,
+      "max": 30
+    },
+    "codename": "Alien Vanguard"
+  },
+  "prototypeToken": {
+    "name": "Alien Vanguard",
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,5 @@
+2026/10/08-06:10:47.714 2d70 Delete type=3 #1
+2026/10/08-06:10:47.738 df0 Level-0 table #5: started
+2026/10/08-06:10:47.764 df0 Level-0 table #5: 516 bytes OK
+2026/10/08-06:10:47.788 df0 Delete type=0 #3
+2026/10/08-06:10:47.789 df0 Manual compaction at level-0 from '!actors!mefAlienVangrd01' @ 72057594037927935 : 1 .. '!actors!mefAlienVangrd01' @ 0 : 0; will stop at (end)
