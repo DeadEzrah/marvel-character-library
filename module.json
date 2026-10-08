@@ -4,6 +4,8 @@
   "title": "Marvel Character Library",
   "description": "Expandable Actor compendiums for Marvel Multiverse heroes, villains, minions, and NPCs.",
   "version": "0.1.0",
+  "url": "https://github.com/DeadEzrah/marvel-character-library",
+  "readme": "https://github.com/DeadEzrah/marvel-character-library/blob/main/README.md",
   "compatibility": {
     "minimum": "14",
     "verified": "14.365"
