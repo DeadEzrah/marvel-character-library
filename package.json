@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate-content.mjs",
-    "build": "npm run validate && node scripts/build-packs.mjs"
+    "build": "npm run validate && node scripts/build-packs.mjs",
+    "validate:release": "node scripts/validate-release.mjs",
+    "release:github": "powershell -ExecutionPolicy Bypass -File .\\scripts\\publish-github-release.ps1 -Publish"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.1.0"

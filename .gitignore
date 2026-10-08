@@ -1,5 +1,6 @@
 node_modules/
 npm-debug.log*
+marvel-character-library-*.zip
 packs/heroes/
 packs/minions/
 packs/villains/

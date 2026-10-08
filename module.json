@@ -5,6 +5,8 @@
   "description": "Expandable Actor compendiums for Marvel Multiverse heroes, villains, minions, and NPCs.",
   "version": "0.3.0",
   "url": "https://github.com/DeadEzrah/marvel-character-library",
+  "manifest": "https://raw.githubusercontent.com/DeadEzrah/marvel-character-library/main/module.json",
+  "download": "https://github.com/DeadEzrah/marvel-character-library/releases/download/release-0.3.0/marvel-character-library-0.3.0.zip",
   "readme": "https://github.com/DeadEzrah/marvel-character-library/blob/main/README.md",
   "compatibility": {
     "minimum": "14",

@@ -52,10 +52,27 @@ Recognizable or personally entered characters belong in the separate private `ma
 
 ## Installation
 
-Copy or link this repository to:
+In Foundry Setup, open **Add-on Modules**, select **Install Module**, and use:
+
+```text
+https://raw.githubusercontent.com/DeadEzrah/marvel-character-library/main/module.json
+```
+
+For a manual development installation, build the compendiums and copy or link this repository to:
 
 ```text
 {Foundry User Data}\Data\modules\marvel-character-library
 ```
 
 Enable **Marvel Character Library** before enabling **Marvel Encounter Packs**.
+
+## Release
+
+Update the version in `module.json`, `package.json`, and `package-lock.json`, including the version in the `download` URL, then run:
+
+```powershell
+npm run validate:release
+npm run release:github
+```
+
+The release command validates and builds the compendiums, creates the Foundry-ready ZIP without source records, and publishes the ZIP and `module.json` under the matching `release-x.y.z` tag.
