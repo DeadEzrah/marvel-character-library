@@ -1,0 +1,16 @@
+{
+  "_id": "mclFirefighter01", "_key": "!actors!mclFirefighter01", "name": "Firefighter", "type": "npc", "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": { "mle": { "value": 1 }, "agl": { "value": 1 }, "res": { "value": 2 }, "vig": { "value": 2 }, "ego": { "value": 1 }, "log": { "value": 0 } },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 }, "codename": "Firefighter", "realname": "Assign a name when introduced", "size": "average",
+    "history": "<p>A rescue professional trained for fire, structural hazards, vehicle incidents, and civilian evacuation.</p><p><strong>Scene use:</strong> Rescue leader, hazard expert, trapped ally, evacuation coordinator, or source of practical information about a damaged location.</p>",
+    "personality": "<p>Decisive, team-oriented, and willing to enter danger for others. Prioritizes rescue and containment over pursuing an enemy.</p>",
+    "distinguishingFeatures": "<p>Protective turnout gear, helmet, radio, breathing equipment, and rescue tools.</p>", "movement": {}
+  },
+  "prototypeToken": { "name": "Firefighter", "actorLink": false, "disposition": 1, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclFireAxe000001", "_key": "!actors.items!mclFirefighter01.mclFireAxe000001", "name": "Rescue Axe", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A heavy rescue tool that can serve as a close weapon in an emergency.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" }, "effectProfiles": { "attack": "melee.swing", "hit": "melee.hit.heavy", "miss": "melee.miss" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [], "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } }, "ownership": { "default": 0 }
+}

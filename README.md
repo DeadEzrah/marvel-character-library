@@ -19,6 +19,15 @@ Expandable Actor compendiums for the Marvel Multiverse system and Marvel Encount
 - Street Tough
 - Generic Minion
 - Alien Vanguard
+- Police Officer
+- Firefighter
+- Reporter
+- Scientist
+- Construction Worker
+- City Driver
+- Shopkeeper
+- Helpful Bystander
+- Panicked Civilian
 
 Scene-ready records include an ability profile, Health and Focus, roleplaying guidance, token defaults, and at least one rollable attack. Duplicate and rename generic NPCs in the world when a recurring individual emerges.
 

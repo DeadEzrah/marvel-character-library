@@ -1,0 +1,16 @@
+{
+  "_id": "mclScientist0001", "_key": "!actors!mclScientist0001", "name": "Scientist", "type": "npc", "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": { "mle": { "value": -1 }, "agl": { "value": 0 }, "res": { "value": 0 }, "vig": { "value": 1 }, "ego": { "value": 0 }, "log": { "value": 3 } },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 }, "codename": "Scientist", "realname": "Assign a name when introduced", "size": "average",
+    "history": "<p>A researcher, laboratory specialist, field analyst, or technical consultant with expertise chosen to suit the scene.</p><p><strong>Scene use:</strong> Explains a phenomenon, operates specialized equipment, becomes a rescue objective, or reveals the consequences of an experiment.</p>",
+    "personality": "<p>Analytical and absorbed by difficult questions. Decide whether caution, discovery, recognition, or responsibility drives their choices.</p>",
+    "distinguishingFeatures": "<p>Protective coat or field gear, identification badge, tablet, sample case, or specialized instruments.</p>", "movement": {}
+  },
+  "prototypeToken": { "name": "Scientist", "actorLink": false, "disposition": 0, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclScienceDefend", "_key": "!actors.items!mclScientist0001.mclScienceDefend", "name": "Lab Tool Defense", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "An improvised close defense using a case, tool, or piece of laboratory equipment.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [], "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } }, "ownership": { "default": 0 }
+}

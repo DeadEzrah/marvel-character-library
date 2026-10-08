@@ -1,0 +1,16 @@
+{
+  "_id": "mclReporter00000", "_key": "!actors!mclReporter00000", "name": "Reporter", "type": "npc", "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": { "mle": { "value": -1 }, "agl": { "value": 1 }, "res": { "value": 0 }, "vig": { "value": 2 }, "ego": { "value": 2 }, "log": { "value": 1 } },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 }, "codename": "Reporter", "realname": "Assign a name when introduced", "size": "average",
+    "history": "<p>A local journalist, photographer, broadcaster, or independent investigator following a developing story.</p><p><strong>Scene use:</strong> Information source, persistent questioner, eyewitness, public-relations complication, or investigator holding one missing clue.</p>",
+    "personality": "<p>Curious, persistent, and reluctant to abandon a lead. Choose whether accuracy, public impact, or career opportunity matters most.</p>",
+    "distinguishingFeatures": "<p>Press identification, recording device, camera, notebook, or live-broadcast equipment.</p>", "movement": {}
+  },
+  "prototypeToken": { "name": "Reporter", "actorLink": false, "disposition": 0, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclReportDefend1", "_key": "!actors.items!mclReporter00000.mclReportDefend1", "name": "Equipment Swing", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A hurried defensive swing with a bag, tripod, or other carried equipment.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [], "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } }, "ownership": { "default": 0 }
+}

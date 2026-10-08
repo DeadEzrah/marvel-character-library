@@ -1,0 +1,16 @@
+{
+  "_id": "mclConstrWorker1", "_key": "!actors!mclConstrWorker1", "name": "Construction Worker", "type": "npc", "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": { "mle": { "value": 2 }, "agl": { "value": 1 }, "res": { "value": 2 }, "vig": { "value": 1 }, "ego": { "value": 0 }, "log": { "value": 0 } },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 }, "codename": "Construction Worker", "realname": "Assign a name when introduced", "size": "average",
+    "history": "<p>A skilled tradesperson familiar with heavy equipment, work sites, structural hazards, and practical problem solving.</p><p><strong>Scene use:</strong> Hazard witness, equipment operator, rescue helper, site guide, or civilian who notices when a structure is about to fail.</p>",
+    "personality": "<p>Practical, direct, and protective of coworkers. Responds well to clear plans and visible competence.</p>",
+    "distinguishingFeatures": "<p>Hard hat, high-visibility clothing, work gloves, tool belt, and protective footwear.</p>", "movement": {}
+  },
+  "prototypeToken": { "name": "Construction Worker", "actorLink": false, "disposition": 1, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclConstrHammer1", "_key": "!actors.items!mclConstrWorker1.mclConstrHammer1", "name": "Work Hammer", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A sturdy hand tool used as an improvised close weapon.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" }, "effectProfiles": { "attack": "melee.swing", "hit": "melee.hit.heavy", "miss": "melee.miss" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [], "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } }, "ownership": { "default": 0 }
+}

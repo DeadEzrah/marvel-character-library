@@ -1,0 +1,16 @@
+{
+  "_id": "mclPoliceOfcr001", "_key": "!actors!mclPoliceOfcr001", "name": "Police Officer", "type": "npc", "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": { "mle": { "value": 1 }, "agl": { "value": 1 }, "res": { "value": 1 }, "vig": { "value": 2 }, "ego": { "value": 1 }, "log": { "value": 0 } },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 }, "codename": "Police Officer", "realname": "Assign a name when introduced", "size": "average",
+    "history": "<p>A patrol officer trained to secure public spaces, interview witnesses, and coordinate emergency response.</p><p><strong>Scene use:</strong> First responder, perimeter contact, investigator, evacuation coordinator, or cautious ally facing threats beyond ordinary training.</p>",
+    "personality": "<p>Alert, procedural, and focused on public safety. Decide whether this officer is trusting, skeptical, overwhelmed, or already familiar with unusual incidents.</p>",
+    "distinguishingFeatures": "<p>Uniform, radio, body camera, protective vest, and duty equipment.</p>", "movement": {}
+  },
+  "prototypeToken": { "name": "Police Officer", "actorLink": false, "disposition": 1, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclPoliceBaton01", "_key": "!actors.items!mclPoliceOfcr001.mclPoliceBaton01", "name": "Duty Baton", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A compact impact tool used at close range.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" }, "effectProfiles": { "attack": "melee.swing", "hit": "melee.hit.light", "miss": "melee.miss" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [], "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } }, "ownership": { "default": 0 }
+}

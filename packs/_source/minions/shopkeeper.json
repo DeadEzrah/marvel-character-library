@@ -1,0 +1,16 @@
+{
+  "_id": "mclShopkeeper001", "_key": "!actors!mclShopkeeper001", "name": "Shopkeeper", "type": "npc", "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": { "mle": { "value": 0 }, "agl": { "value": 0 }, "res": { "value": 0 }, "vig": { "value": 1 }, "ego": { "value": 2 }, "log": { "value": 1 } },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 }, "codename": "Shopkeeper", "realname": "Assign a name when introduced", "size": "average",
+    "history": "<p>An owner, clerk, vendor, or neighborhood merchant who knows local customers, deliveries, and daily routines.</p><p><strong>Scene use:</strong> Witness, information broker, victim of property damage, neighborhood contact, or keeper of useful security footage.</p>",
+    "personality": "<p>Observant, protective of the business, and quick to recognize unusual behavior. Decide whether hospitality or suspicion comes first.</p>",
+    "distinguishingFeatures": "<p>Apron or store badge, keys, handheld terminal, and easy access to counters and stock rooms.</p>", "movement": {}
+  },
+  "prototypeToken": { "name": "Shopkeeper", "actorLink": false, "disposition": 0, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclShopDefense01", "_key": "!actors.items!mclShopkeeper001.mclShopDefense01", "name": "Counter Defense", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A close defensive strike with an object kept behind the counter.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [], "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } }, "ownership": { "default": 0 }
+}

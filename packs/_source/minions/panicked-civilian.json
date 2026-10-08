@@ -1,0 +1,16 @@
+{
+  "_id": "mclPanicCivil001", "_key": "!actors!mclPanicCivil001", "name": "Panicked Civilian", "type": "npc", "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": { "mle": { "value": -1 }, "agl": { "value": 1 }, "res": { "value": 0 }, "vig": { "value": -1 }, "ego": { "value": 0 }, "log": { "value": 0 } },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 }, "codename": "Panicked Civilian", "realname": "Assign a name when introduced", "size": "average",
+    "history": "<p>An ordinary person overwhelmed by immediate danger, confusion, or separation from someone important.</p><p><strong>Scene use:</strong> Rescue complication, frightened witness, crowd catalyst, or civilian who needs calm instructions before moving to safety.</p>",
+    "personality": "<p>Frightened and reactive rather than irrational. Give them one concrete concern such as a missing child, trapped coworker, pet, medication, or blocked exit.</p>",
+    "distinguishingFeatures": "<p>Disordered clothing, a dropped possession, and visible attention fixed on the source of danger.</p>", "movement": {}
+  },
+  "prototypeToken": { "name": "Panicked Civilian", "actorLink": false, "disposition": 0, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclPanicDefense1", "_key": "!actors.items!mclPanicCivil001.mclPanicDefense1", "name": "Frantic Defense", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "An uncontrolled close attempt to push past an immediate threat.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [], "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } }, "ownership": { "default": 0 }
+}
