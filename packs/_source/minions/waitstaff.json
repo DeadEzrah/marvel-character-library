@@ -1,0 +1,29 @@
+{
+  "_id": "mclWaitstaff0001",
+  "_key": "!actors!mclWaitstaff0001",
+  "name": "Waitstaff",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": {
+      "mle": { "value": 0 }, "agl": { "value": 1 }, "res": { "value": 0 },
+      "vig": { "value": 1 }, "ego": { "value": 1 }, "log": { "value": 0 }
+    },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 },
+    "codename": "Waitstaff",
+    "realname": "Assign a name when introduced",
+    "size": "average",
+    "history": "<p>A server, host, bartender, or kitchen worker who knows the venue, the regulars, and what happened just before trouble began.</p><p><strong>Scene use:</strong> Witness, helpful guide, hostage, rumor source, or ordinary person caught in extraordinary danger.</p>",
+    "personality": "<p>Observant, busy, and practiced at reading a room. Usually prioritizes the safety of coworkers and guests.</p>",
+    "distinguishingFeatures": "<p>Work clothes, order pad or handheld terminal, and quick access to staff-only areas.</p>",
+    "movement": {}
+  },
+  "prototypeToken": { "name": "Waitstaff", "actorLink": false, "disposition": 0, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclWaitstfStrike", "_key": "!actors.items!mclWaitstaff0001.mclWaitstfStrike", "name": "Improvised Defense", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A desperate close-range swing with whatever is at hand.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [],
+  "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } },
+  "ownership": { "default": 0 }
+}

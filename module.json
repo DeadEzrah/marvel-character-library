@@ -3,7 +3,7 @@
   "type": "module",
   "title": "Marvel Character Library",
   "description": "Expandable Actor compendiums for Marvel Multiverse heroes, villains, minions, and NPCs.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "url": "https://github.com/DeadEzrah/marvel-character-library",
   "readme": "https://github.com/DeadEzrah/marvel-character-library/blob/main/README.md",
   "compatibility": {
@@ -22,7 +22,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "3.0.0",
-          "verified": "3.0.0"
+          "verified": "3.2.1"
         }
       }
     ]

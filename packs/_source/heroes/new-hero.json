@@ -1,0 +1,45 @@
+{
+  "_id": "mclNewHero000001",
+  "_key": "!actors!mclNewHero000001",
+  "name": "New Hero",
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 }, "init": { "value": 1, "edge": false, "trouble": false } },
+    "abilities": {
+      "mle": { "value": 1, "defense": 11, "noncom": 1, "edge": false, "damageMultiplier": 1, "label": "Melee" },
+      "agl": { "value": 1, "defense": 11, "noncom": 1, "edge": false, "damageMultiplier": 1, "label": "Agility" },
+      "res": { "value": 1, "defense": 11, "noncom": 1, "edge": false, "damageMultiplier": 1, "label": "Resilience" },
+      "vig": { "value": 1, "defense": 11, "noncom": 1, "edge": false, "damageMultiplier": 1, "label": "Vigilance" },
+      "ego": { "value": 1, "defense": 11, "noncom": 1, "edge": false, "damageMultiplier": 1, "label": "Ego" },
+      "log": { "value": 1, "defense": 11, "noncom": 1, "edge": false, "damageMultiplier": 1, "label": "Logic" }
+    },
+    "health": { "value": 30, "max": 30 },
+    "focus": { "value": 30, "max": 30 },
+    "karma": { "value": 1, "max": 1 },
+    "codename": "New Hero",
+    "realname": "",
+    "size": "average",
+    "history": "<p>An emerging hero ready for a player to customize. Their first public adventure begins when they choose to step forward and help.</p><p><strong>Scene use:</strong> A balanced Rank 1 starting point for a new player character, temporary ally, or transformed civilian.</p>",
+    "personality": "<p>Brave enough to act, inexperienced enough to make the moment interesting. Choose a motivation and a personal complication when assigning this hero.</p>",
+    "distinguishingFeatures": "<p>Customize the name, appearance, origin, occupation, traits, and powers before long-term play.</p>",
+    "movement": {
+      "run": { "label": "Run", "value": 5, "noncom": 5, "active": true, "rankMode": "", "calc": "" },
+      "climb": { "label": "Climb", "value": 3, "noncom": 5, "active": true, "rankMode": "", "calc": "half" },
+      "swim": { "label": "Swim", "value": 3, "noncom": 5, "active": true, "rankMode": "", "calc": "half" },
+      "jump": { "label": "Jump", "value": 3, "noncom": 5, "active": true, "rankMode": "", "calc": "half" },
+      "flight": { "label": "Flight", "value": 5, "noncom": 5, "active": false, "rankMode": "", "calc": "" },
+      "glide": { "label": "Glide", "value": 5, "noncom": 5, "active": false, "rankMode": "", "calc": "" },
+      "swingline": { "label": "Swingline", "value": 5, "noncom": 5, "active": false, "rankMode": "", "calc": "" },
+      "levitation": { "label": "Levitation", "value": 5, "noncom": 5, "active": false, "rankMode": "", "calc": "" }
+    },
+    "powers": {}
+  },
+  "prototypeToken": { "name": "New Hero", "actorLink": true, "disposition": 1, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclNewHeroStrike", "_key": "!actors.items!mclNewHero000001.mclNewHeroStrike", "name": "Unarmed Strike", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A straightforward punch, kick, or similar close attack.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" }, "effectProfiles": { "attack": "melee.punch", "hit": "melee.hit.light", "miss": "melee.miss" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [],
+  "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } },
+  "ownership": { "default": 2 }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "mclBusiness00001",
+  "_key": "!actors!mclBusiness00001",
+  "name": "Businessperson",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": {
+      "mle": { "value": -1 }, "agl": { "value": 0 }, "res": { "value": 0 },
+      "vig": { "value": 0 }, "ego": { "value": 2 }, "log": { "value": 1 }
+    },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 },
+    "codename": "Businessperson",
+    "realname": "Assign a name when introduced",
+    "size": "average",
+    "history": "<p>An office worker, manager, consultant, executive, or entrepreneur with useful contacts and knowledge of local organizations.</p><p><strong>Scene use:</strong> Client, witness, negotiator, employer, target of a scheme, or informed civilian with access to records and facilities.</p>",
+    "personality": "<p>Direct, organized, and sensitive to risk. Decide whether they protect people, a reputation, or a pending deal when pressure rises.</p>",
+    "distinguishingFeatures": "<p>Professional clothing, identification badge, phone, briefcase, or tablet.</p>",
+    "movement": {}
+  },
+  "prototypeToken": { "name": "Businessperson", "actorLink": false, "disposition": 0, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclBusinessStrik", "_key": "!actors.items!mclBusiness00001.mclBusinessStrik", "name": "Improvised Defense", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A hurried strike with a bag, office object, or bare hand.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [],
+  "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } },
+  "ownership": { "default": 0 }
+}

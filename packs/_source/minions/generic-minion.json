@@ -1,0 +1,29 @@
+{
+  "_id": "mclGenericMinion1",
+  "_key": "!actors!mclGenericMinion1",
+  "name": "Generic Minion",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": {
+      "mle": { "value": 1 }, "agl": { "value": 1 }, "res": { "value": 1 },
+      "vig": { "value": 0 }, "ego": { "value": 0 }, "log": { "value": 0 }
+    },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 },
+    "codename": "Generic Minion",
+    "realname": "",
+    "size": "average",
+    "history": "<p>A neutral-purpose hostile operative ready to be reskinned as a gang member, cult guard, criminal hireling, corporate enforcer, or uniformed invader.</p><p><strong>Scene use:</strong> Duplicate as needed, rename the group, and adjust disposition or equipment to fit the encounter.</p>",
+    "personality": "<p>Follows simple orders, works with nearby allies, and values survival once the plan collapses.</p>",
+    "distinguishingFeatures": "<p>Assign a shared color, insignia, uniform, or piece of equipment to identify the faction.</p>",
+    "movement": {}
+  },
+  "prototypeToken": { "name": "Generic Minion", "actorLink": false, "disposition": -1, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclMinionStrike1", "_key": "!actors.items!mclGenericMinion1.mclMinionStrike1", "name": "Standard Strike", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A basic close attack suitable for whichever equipment the minion carries.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" }, "effectProfiles": { "attack": "melee.swing", "hit": "melee.hit.light", "miss": "melee.miss" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [],
+  "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } },
+  "ownership": { "default": 0 }
+}

@@ -1,10 +1,11 @@
 {
   "name": "marvel-character-library",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-packs.mjs"
+    "validate": "node scripts/validate-content.mjs",
+    "build": "npm run validate && node scripts/build-packs.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.1.0"

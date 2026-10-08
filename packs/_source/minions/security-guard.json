@@ -1,0 +1,29 @@
+{
+  "_id": "mclSecurity00001",
+  "_key": "!actors!mclSecurity00001",
+  "name": "Security Guard",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": {
+      "mle": { "value": 1 }, "agl": { "value": 1 }, "res": { "value": 1 },
+      "vig": { "value": 2 }, "ego": { "value": 0 }, "log": { "value": 0 }
+    },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 },
+    "codename": "Security Guard",
+    "realname": "Assign a name when introduced",
+    "size": "average",
+    "history": "<p>A trained private guard familiar with a specific building, event, or restricted site.</p><p><strong>Scene use:</strong> First warning of intrusion, facility guide, cautious ally, controlled-access obstacle, or outmatched first responder.</p>",
+    "personality": "<p>Alert and procedure-minded. Wants identification, clear explanations, and control of the scene before taking unnecessary risks.</p>",
+    "distinguishingFeatures": "<p>Uniform, radio, flashlight, access card, and a compact restraint baton.</p>",
+    "movement": {}
+  },
+  "prototypeToken": { "name": "Security Guard", "actorLink": false, "disposition": 0, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclSecurityBaton", "_key": "!actors.items!mclSecurity00001.mclSecurityBaton", "name": "Security Baton", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A compact close-range baton carried for defensive use.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" }, "effectProfiles": { "attack": "melee.swing", "hit": "melee.hit.light", "miss": "melee.miss" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [],
+  "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } },
+  "ownership": { "default": 0 }
+}

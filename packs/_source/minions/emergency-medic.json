@@ -1,0 +1,29 @@
+{
+  "_id": "mclMedic00000001",
+  "_key": "!actors!mclMedic00000001",
+  "name": "Emergency Medic",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": {
+      "mle": { "value": 0 }, "agl": { "value": 1 }, "res": { "value": 1 },
+      "vig": { "value": 1 }, "ego": { "value": 1 }, "log": { "value": 2 }
+    },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 },
+    "codename": "Emergency Medic",
+    "realname": "Assign a name when introduced",
+    "size": "average",
+    "history": "<p>A trained emergency responder carrying basic medical gear and accustomed to unstable scenes.</p><p><strong>Scene use:</strong> Stabilizes civilians, reports injuries, identifies unusual symptoms, or directs heroes toward the most urgent rescue.</p>",
+    "personality": "<p>Calm, practical, and focused on triage. Cooperates with heroes who make the scene safer and challenges anyone who creates new hazards.</p>",
+    "distinguishingFeatures": "<p>High-visibility uniform, medical bag, gloves, radio, and emergency identification.</p>",
+    "movement": {}
+  },
+  "prototypeToken": { "name": "Emergency Medic", "actorLink": false, "disposition": 1, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclMedicDefense1", "_key": "!actors.items!mclMedic00000001.mclMedicDefense1", "name": "Defensive Shove", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "A close shove used only when escape or a patient's safety demands it.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [],
+  "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } },
+  "ownership": { "default": 0 }
+}

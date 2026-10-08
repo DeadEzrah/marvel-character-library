@@ -32,7 +32,16 @@
   },
   "items": [],
   "effects": [],
-  "flags": {},
+  "flags": {
+    "marvel-character-library": {
+      "content": {
+        "classification": "original",
+        "creator": "Marvel Character Library Project",
+        "provenance": "Created for this repository; not based on an official character.",
+        "reviewedAt": "2026-10-08"
+      }
+    }
+  },
   "ownership": {
     "default": 2
   }

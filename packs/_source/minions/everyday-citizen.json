@@ -1,0 +1,29 @@
+{
+  "_id": "mclCitizen000001",
+  "_key": "!actors!mclCitizen000001",
+  "name": "Everyday Citizen",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "attributes": { "rank": { "value": 1 } },
+    "abilities": {
+      "mle": { "value": 0 }, "agl": { "value": 0 }, "res": { "value": 0 },
+      "vig": { "value": 0 }, "ego": { "value": 0 }, "log": { "value": 0 }
+    },
+    "health": { "value": 30, "max": 30 }, "focus": { "value": 30, "max": 30 },
+    "codename": "Everyday Citizen",
+    "realname": "Assign a name when introduced",
+    "size": "average",
+    "history": "<p>An ordinary resident, commuter, shopper, tourist, or bystander. Adapt their clothing and immediate concern to the scene.</p><p><strong>Scene use:</strong> Civilian at risk, eyewitness, crowd member, family contact, or a neutral participant who needs assistance.</p>",
+    "personality": "<p>Starts cautious and concerned. A quick name, destination, and current worry are enough to make this person memorable.</p>",
+    "distinguishingFeatures": "<p>Choose one visible detail tied to the location: shopping bags, a bicycle helmet, a phone, luggage, or work clothes.</p>",
+    "movement": {}
+  },
+  "prototypeToken": { "name": "Everyday Citizen", "actorLink": false, "disposition": 0, "width": 1, "height": 1, "texture": { "src": "icons/svg/mystery-man.svg" }, "bar1": { "attribute": "health" }, "bar2": { "attribute": "focus" } },
+  "items": [
+    { "_id": "mclCitizenStrike", "_key": "!actors.items!mclCitizen000001.mclCitizenStrike", "name": "Desperate Defense", "type": "weapon", "img": "systems/marvel-multiverse/icons/weapons.svg", "system": { "description": "An untrained attempt to push back an immediate attacker.", "range": "Reach", "ability": "mle", "damageMultiplierBonus": "+0", "attackTarget": "mle", "attackKind": "close", "attack": true, "damageType": "health", "targeting": { "required": true, "count": 1, "defense": "mle", "range": 1, "rangeScaling": "reach" } }, "flags": {}, "effects": [] }
+  ],
+  "effects": [],
+  "flags": { "marvel-character-library": { "content": { "classification": "original", "creator": "Marvel Character Library Project", "provenance": "Created for this repository; not based on an official character.", "reviewedAt": "2026-10-08", "readyToPlay": true } } },
+  "ownership": { "default": 0 }
+}
