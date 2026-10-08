@@ -1,2 +1,5 @@
 node_modules/
 npm-debug.log*
+packs/heroes/
+packs/minions/
+packs/villains/

@@ -1,5 +1,0 @@
-2026/10/08-06:10:47.497 2d70 Delete type=3 #1
-2026/10/08-06:10:47.522 df0 Level-0 table #5: started
-2026/10/08-06:10:47.555 df0 Level-0 table #5: 515 bytes OK
-2026/10/08-06:10:47.580 df0 Delete type=0 #3
-2026/10/08-06:10:47.580 df0 Manual compaction at level-0 from '!actors!mefHeroTemplate1' @ 72057594037927935 : 1 .. '!actors!mefHeroTemplate1' @ 0 : 0; will stop at (end)
